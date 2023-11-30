@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 
 ng () {
 	echo NG at Line $1
