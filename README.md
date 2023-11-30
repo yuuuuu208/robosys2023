@@ -1,6 +1,6 @@
 # averageコマンド
 
-標準入力から読み込んだ数字の平均値を出力する。
+標準入力から読み込んだ数字の平均値を出力します。
 ![test](https://github.com/yuuuuu208/robosys2023/actions/workflows/test.yml/badge.svg)
 
 このコマンドを実行するには、以下を実行してください。
