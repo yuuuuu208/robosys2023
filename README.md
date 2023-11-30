@@ -1,5 +1,8 @@
-# robosys2023
-souwa
+# plusコマンド
+
+標準入力から読み込んだ数字を足す。
+![test](https://github.com/yuuuuu208/robosys2023/actions/workflows/test.yml/badge.svg)
+
 
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   * このパッケージは，3条項BSDライセンスの下ryuichiueda/emcl由来のコード（© 2022 Ryuichi Ueda）を利用しています．
