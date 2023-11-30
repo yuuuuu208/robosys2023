@@ -16,5 +16,4 @@ for m in sys.argv[1:]:
 
 z = x/y
 
-print(x)
 print(z)
