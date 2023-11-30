@@ -4,12 +4,13 @@
 ![test](https://github.com/yuuuuu208/robosys2023/actions/workflows/test.yml/badge.svg)
 
 このコマンドを実行するには、以下を実行してください。
+
 $ seq x | ./plus
+
 xには数字を入力してください。
 
 ## 必要なソフトウェア
 * Python
-* テスト済:3.7～3.10
 
 ## テスト環境
 * Ubuubtu
