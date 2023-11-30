@@ -1,5 +1,24 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrighiText: 2022 Yuna Hayashi s22c1105lv@s.chibakoudai.jp
 # SPDX-License-Identifier: BSD-3-Clause
 
-./average 1 2 3 4 5
+ng () {
+	echo NG at Line $1
+	res=1
+}
+
+res=0
+
+out=$(./average 1 2 3 4 5)
+[ "$out" = 3.0 ] || ng $LINENO
+
+out=$(./average あ)
+[ "$?" = 1 ] || ng $LINENO
+[ "$out" = "" ] || ng $LINENO
+
+out=$(./average )
+[ "$?" = 1 ] || ng $LINENO
+[ "$out" = ""  ] || ng $LINENO
+
+[ "$res" = 0 ] && echo OK
+exit $res
