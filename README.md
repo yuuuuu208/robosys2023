@@ -1,16 +1,17 @@
-# plusコマンド
+# averageコマンド
 
-標準入力から読み込んだ数字を足す。
+標準入力から読み込んだ数字の平均値を出力する。
 ![test](https://github.com/yuuuuu208/robosys2023/actions/workflows/test.yml/badge.svg)
 
 このコマンドを実行するには、以下を実行してください。
 
-$ seq x | ./plus
+$ ./average x ...
 
-xには数字を入力してください。
+x以降には、数字を１スペースずつ空けて入力してください。
 
 ## 必要なソフトウェア
 * Python
+* テスト済: 3.7~3.10
 
 ## テスト環境
 * Ubuubtu
