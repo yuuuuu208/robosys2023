@@ -3,11 +3,14 @@
 標準入力から読み込んだ数字を足す。
 ![test](https://github.com/yuuuuu208/robosys2023/actions/workflows/test.yml/badge.svg)
 
-*必要なソフトウェア*
-*Python
- *テスト済:3.7～3.10
+このコマンドを実行するには、以下を実行してください。
+./plus
 
-*テスト環境*
+##必要なソフトウェア
+* Python
+* テスト済:3.7～3.10
+
+##テスト環境
 * Ubuubtu
 
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
