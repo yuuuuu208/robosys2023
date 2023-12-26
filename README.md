@@ -29,5 +29,5 @@ $ -0.14285714285714285
 
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
  * このパッケージのコードの一部は、下記のplusプログラムのコード（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
- *[ryuichiueda/robosys2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)を利用しています．
+ * [ryuichiueda/robosys2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
  * © 2023 Yuna Hayashi
